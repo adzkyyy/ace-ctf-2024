@@ -1,0 +1,11 @@
+services:
+  unsolvable:
+    build: .
+    ports:
+      - "5963:9999"
+    ulimits:
+      nproc: 65535
+      core: 0
+    restart: always
+    environment:
+      - FLAG="ACECTF{wrth}"
