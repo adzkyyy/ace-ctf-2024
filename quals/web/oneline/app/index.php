@@ -1,0 +1,1 @@
+<?php !empty($_POST['file']) ? strlen($_POST['file']) < 7331 ? preg_match('/[A-Za-z]/i', $_POST['file']) ? die("no words allowed") : include(stripcslashes($_POST['file'])) : die("file too long") : highlight_file(__FILE__)?>
