@@ -1,0 +1,9 @@
+services:
+  rng:
+    container_name: rng
+    build: .
+    ports:
+      - "20080:20080"
+    restart: always
+    environment:
+      - FLAG=ACECTF{__import__('os').urandom(32).hex()}
