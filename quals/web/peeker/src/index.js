@@ -18,7 +18,12 @@ app.get('/proxy', async (req, res) => {
     const username = req.query.url;
 
     if (!username) {
-        res.status(400).send('Missing url parameter');
+        res.render('error', { content: 'No username provided' });
+        return;
+    }
+
+    if (username.includes('127.0.0.1')) {
+        res.render('error', { content: "Forbidden" });
         return;
     }
 
@@ -28,13 +33,9 @@ app.get('/proxy', async (req, res) => {
         });
         const response = await github.get(`/${username}`);
         app.locals.fetchedContent = response.data;
-        if (response.status === 200) {
-            res.render('result');
-        } else {
-            res.render('error');
-        }
+        res.render('result');
     } catch (error) {
-        res.status(500).send(error.message);
+        res.render('error', { content: error.message });
     }
 });
 
@@ -43,11 +44,10 @@ app.get('/result', (req, res) => {
 });
 
 app.get('/admin', (req, res) => {
-    console.log(req.ip);
     if (req.ip === '127.0.0.1') {
         res.render('admin', { content: process.env.FLAG });
     } else {
-        res.status(403).send('Forbidden');
+        res.render('error', { content: "Forbidden" });
     }
 });
 
