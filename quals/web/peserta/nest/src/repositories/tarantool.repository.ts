@@ -32,7 +32,8 @@ export class TarantoolRepository {
                 local result = box.space.users:select()
                 return format_result('users', result)
                 `);
-                return result[0]
+            if (result[0].length == 0) return false
+            return result[0]
         } catch (error) {
             return false
         }
@@ -44,7 +45,8 @@ export class TarantoolRepository {
                 local result = box.space.users.index.username:select({${JSON.stringify(username)}})
                 return format_result('users', result)
                 `);
-                return result[0]
+            if (result[0].length == 0) return false
+            return result[0]
         } catch (error) {
             return false
         }
@@ -56,7 +58,8 @@ export class TarantoolRepository {
                 local result = box.space.users.index.primary:select(${id})
                 return format_result('users', result)
                 `);
-                return result[0]
+            if (result[0].length == 0) return false
+            return result[0]
         } catch (error) {
             return false
         }
