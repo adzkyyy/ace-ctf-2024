@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f0f0f0, #e6e6e6);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        body.dark-mode {
+            background: linear-gradient(135deg, #1e1e1e, #2e2e2e);
+            color: #e0e0e0;
+        }
+        h1, h2 {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #444;
+        }
+        h1.dark-mode {
+            color: #e0e0e0;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #666;
+        }
+        h2.dark-mode {
+            color: #d0d0d0;
+        }
+        .toggle-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #0073b1;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .toggle-button.dark-mode {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-button">Toggle Dark Mode</button>
+    <div class="content">
+        <h1>Admin Page</h1>
+        <h2><%= content %></h2>
+    </div>
+    <script>
+        const toggleButton = document.querySelector('.toggle-button');
+        const body = document.body;
+        const darkModeKey = 'darkMode';
+
+        function applyDarkMode() {
+            const isDarkMode = localStorage.getItem(darkModeKey) === 'true';
+            body.classList.toggle('dark-mode', isDarkMode);
+            document.querySelectorAll('h1, h2').forEach(el => el.classList.toggle('dark-mode', isDarkMode));
+            toggleButton.classList.toggle('dark-mode', isDarkMode);
+        }
+
+        toggleButton.addEventListener('click', () => {
+            const isDarkMode = !body.classList.contains('dark-mode');
+            localStorage.setItem(darkModeKey, isDarkMode);
+            applyDarkMode();
+        });
+
+        applyDarkMode();
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+services:
+  peeker:
+    container_name: peeker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9001:3000
+    restart: always
+    environment:
+      - FLAG=ACECTF{tinggal_lihat_package.json_langsung_kelar}
