@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Canvasio3D_AR 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-20 08:24+0200\n"
+"PO-Revision-Date: 2021-05-20 08:37+0200\n"
+"Last-Translator: virtuell werk <info@virtuellwerk.de>\n"
+"Language-Team: virtuellwerk <info@virtuellwerk.de>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: ;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../caFunctions.php:38
+msgid "Hello World!"
+msgstr "Здравствуйте, мир!"
+
+#: ../caFunctions.php:39
+msgid "Window height:"
+msgstr "Высота окна:"
+
+#: ../caFunctions.php:40
+msgid "Window width:"
+msgstr "Ширина окна:"
+
+#: ../caFunctions.php:41 ../caFunctions.php:95
+msgid "Color:"
+msgstr "Цвет:"
+
+#: ../caFunctions.php:42
+msgid "Image:"
+msgstr "Изображение:"
+
+#: ../caFunctions.php:43
+msgid "Color | Image:"
+msgstr "Цвет | Билд:"
+
+#: ../caFunctions.php:44
+msgid "New scene"
+msgstr "Новая сцена"
+
+#: ../caFunctions.php:45
+msgid "Enter scene name here"
+msgstr "Введите имя сцены здесь"
+
+#: ../caFunctions.php:46
+msgid "Delete scene"
+msgstr "Удалить сцену"
+
+#: ../caFunctions.php:47
+msgid "Save scene"
+msgstr "Сохранить сцену"
+
+#: ../caFunctions.php:48
+msgid "Scene select"
+msgstr "Выбор сцены"
+
+#: ../caFunctions.php:49
+msgid "Copy scene"
+msgstr "Сцена копирования"
+
+#: ../caFunctions.php:50
+msgid "Paste scene"
+msgstr "пастовая сцена"
+
+#: ../caFunctions.php:51
+msgid "Object Upload: fbx | glb | stl | zip"
+msgstr "Загрузка: fbx | glb | stl | zip"
+
+#: ../caFunctions.php:52
+msgid "Size:"
+msgstr "Размер:"
+
+#: ../caFunctions.php:53
+msgid "Down | Up:"
+msgstr "Вниз | Вверх:"
+
+#: ../caFunctions.php:54
+msgid "3D-Object select"
+msgstr "3D-Объект выбора"
+
+#: ../caFunctions.php:55
+msgid "Fullscreen button:"
+msgstr "Полный экран"
+
+#: ../caFunctions.php:56
+msgid "Rotation button:"
+msgstr "Кнопка вращения:"
+
+#: ../caFunctions.php:57
+msgid "Scene Manager"
+msgstr "Менеджер сцены"
+
+#: ../caFunctions.php:58
+msgid "Model Settings"
+msgstr "Настройки модели"
+
+#: ../caFunctions.php:59
+msgid "Window Settings"
+msgstr "Окна Настройки"
+
+#: ../caFunctions.php:60
+msgid "Button Settings"
+msgstr "Настройки кнопок"
+
+#: ../caFunctions.php:61
+msgid "Auto rotation:"
+msgstr "Оборот:"
+
+#: ../caFunctions.php:62
+msgid "File upload - Please wait!"
+msgstr "Загрузка файлов - Пожалуйста, подождите!"
+
+#: ../caFunctions.php:63
+msgid "Loading uploaded model"
+msgstr "Загрузка загруженной модели"
+
+#: ../caFunctions.php:64
+msgid "Error: File format not suported!"
+msgstr "Ошибка: Формат файла не отменен!"
+
+#: ../caFunctions.php:65
+msgid "Loading model"
+msgstr "Загрузочная модель"
+
+#: ../caFunctions.php:66
+msgid "Error in media library!"
+msgstr "Ошибка в медиатеке!"
+
+#: ../caFunctions.php:67
+msgid "Scene data was updated"
+msgstr "Обновлены данные сцены"
+
+#: ../caFunctions.php:68
+msgid "New scene data was saved"
+msgstr "Сохранены данные новой сцены"
+
+#: ../caFunctions.php:69
+msgid "Error to save data!"
+msgstr "Ошибка при сохранении данных!"
+
+#: ../caFunctions.php:70
+msgid ""
+"If you have question to use your 3D-Models<br>or any problems with our "
+"Plugin, are we pleased about your email:"
+msgstr ""
+"Если у вас возникли вопросы по использованию 3D-моделей<br> или какие-либо "
+"проблемы с нашим Плагином, мы будем рады получить вашу электронную почту:"
+
+#: ../caFunctions.php:71
+msgid "Contact us here"
+msgstr "Свяжитесь с нами здесь"
+
+#: ../caFunctions.php:72
+msgid "License Key"
+msgstr "Ключ лицензии"
+
+#: ../caFunctions.php:73
+msgid ""
+"If you would like to upgrade Canvasio3D<br>than enter your license key here:"
+msgstr ""
+"Если вы хотите обновить Canvasio3D<br>, введите здесь лицензионный ключ:"
+
+#: ../caFunctions.php:74
+msgid "Get upgrade version"
+msgstr "Получить версию обновления"
+
+#: ../caFunctions.php:75
+msgid ""
+"Attention | After upgrade the plugin, the name of <i>canvasio3D Light</i> "
+"will changed <br> to <b>Canvasio3D</b> and must be activate manuell!"
+msgstr ""
+"Внимание | После обновления плагина имя <i>canvasio3D Light</i> изменится "
+"<br> на <b>Canvasio3D</b> и должно быть активировано manuell!"
+
+#: ../caFunctions.php:76
+msgid "Update is running ... please wait!"
+msgstr "Обновление запущено... пожалуйста, подождите!"
+
+#: ../caFunctions.php:77
+msgid "Wireframe button:"
+msgstr "Проволочная рама:"
+
+#: ../caFunctions.php:78
+msgid "Camera Pan:"
+msgstr "Камера Пэн:"
+
+#: ../caFunctions.php:79
+msgid "Camera Lock:"
+msgstr "Камера замок:"
+
+#: ../caFunctions.php:80
+msgid "Edit material"
+msgstr "Редактировать материал"
+
+#: ../caFunctions.php:81
+msgid "Edit effects"
+msgstr "Редактирующие эффекты"
+
+#: ../caFunctions.php:82
+msgid "Edit environment"
+msgstr "Редактируемая среда"
+
+#: ../caFunctions.php:83
+msgid "Play button:"
+msgstr "Играй:"
+
+#: ../caFunctions.php:84
+msgid "Pause button:"
+msgstr "Пауза:"
+
+#: ../caFunctions.php:85
+msgid "Back button:"
+msgstr "Кнопка \"Назад\":"
+
+#: ../caFunctions.php:86
+msgid "Back to model settings"
+msgstr "Настройка задней модели"
+
+#: ../caFunctions.php:87
+msgid "Animation:"
+msgstr "Анимация:"
+
+#: ../caFunctions.php:88
+msgid "Auto play:"
+msgstr "Автоигра:"
+
+#: ../caFunctions.php:89
+msgid "Animation loop: none"
+msgstr "Петля анимации: нет"
+
+#: ../caFunctions.php:90
+msgid "Animation loop: forward"
+msgstr "Петля анимации: вперед"
+
+#: ../caFunctions.php:91
+msgid "Animation loop: ping-pong"
+msgstr "Петля для анимации: пинг-понг"
+
+#: ../caFunctions.php:92
+msgid "Roughness:"
+msgstr "Грубость:"
+
+#: ../caFunctions.php:93
+msgid "Metallic:"
+msgstr "Металличность:"
+
+#: ../caFunctions.php:94
+msgid "Transparency:"
+msgstr "Прозрачный:"
+
+#: ../caFunctions.php:96
+msgid "Material reset"
+msgstr "Сброс материала"
+
+#: ../caFunctions.php:97
+msgid "Material select: right click"
+msgstr "Материал: щелчок правой кнопкой мыши"
+
+#: ../caFunctions.php:98
+msgid "Light-Sets:"
+msgstr "Световые наборы:"
+
+#: ../caFunctions.php:99
+msgid "Brightness:"
+msgstr "Яркость:"
+
+#: ../caFunctions.php:100
+msgid "Panorama:"
+msgstr "Панорама:"
+
+#: ../caFunctions.php:101
+msgid "Off | On:"
+msgstr "Вкл | выкл:"
+
+#: ../caFunctions.php:102
+msgid "Water:"
+msgstr "Воды:"
+
+#: ../caFunctions.php:103
+msgid "Upload button:"
+msgstr "Кнопка загрузки:"
+
+#: ../caFunctions.php:104
+msgid "Outline:"
+msgstr "Конспект:"
+
+#: ../caFunctions.php:105
+msgid "Thickness:"
+msgstr "Толщина:"
+
+#: ../caFunctions.php:106
+msgid "Video URL:"
+msgstr "URL видео:"
+
+#: ../caFunctions.php:107
+msgid "Video Volume:"
+msgstr "Объем видео:"
+
+#: ../caFunctions.php:108
+msgid "Edit floor"
+msgstr "Область слоя"
+
+#: ../caFunctions.php:109
+msgid "Floor visible:"
+msgstr "видеть слой"
+
+#: ../caFunctions.php:110
+msgid "Repeat:"
+msgstr "Повторите:"
+
+#: ../caFunctions.php:111
+msgid "Scale:"
+msgstr "Масштаб:"
+
+#: ../caFunctions.php:112
+msgid "Mirror:"
+msgstr "Зеркало:"
+
+#: ../caFunctions.php:113
+msgid "Camera height:"
+msgstr "Высота камеры:"
+
+#~ msgid "3D-Object Upload (.zip)"
+#~ msgstr "Загрузка 3D-Object (.zip)"
+
+#~ msgid "Material color:"
+#~ msgstr "Цвет материала:"
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid "Woo 3D-Window"
+#~ msgstr "Woo  3D-окно"
+
+#~ msgid "Woo Product-ID"
+#~ msgstr "Woo ID продукта"
+
+#~ msgid "Crystal object select"
+#~ msgstr "Выбор кристалла"
+
+#~ msgid "No select ..."
+#~ msgstr "Нет выбора ..."
+
+#~ msgid "Crystal Material"
+#~ msgstr "Хрустальный материал"
+
+#~ msgid "Main product item"
+#~ msgstr "Основная продукция"
+
+#~ msgid "Get product variations"
+#~ msgstr "Получить вариации продукта"
+
+#~ msgid "Assign scene to product"
+#~ msgstr "Назначить сцену товару"
+
+#~ msgid "Surface size:"
+#~ msgstr "Размер поверхности:"
+
+#~ msgid "Front | Back:"
+#~ msgstr "Фронт | Назад:"
+
+#~ msgid "Select URL"
+#~ msgstr "Выбрать URL-адрес"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Background:"
+#~ msgstr "Подоплёка:"

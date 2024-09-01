@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: "Canvasio"
+author: "Dimas"
+category: Web
+description: |
+  Yet another vulnerable plugin!!!
+
+  **wordpress**: https://{{ url }}:10337
+  **bot**: https://{{ url }}:10338
+
+value: 1000
+type: StaticAttachment
+
+scripts:
+  start: cd wordpress && pm2 start ./run.sh  --name "wordpress"
+  stop: cd wordpress && pm2 stop wordpress && docker compose down --volumes
+
+provide: ./dist
+
+flags:
+- ACE{kenapa_juga_pakai_deprecated_plugin,kan_kena_hack_sekarang!T-T}

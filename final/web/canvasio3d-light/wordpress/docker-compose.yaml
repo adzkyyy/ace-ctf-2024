@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  wordpress:
+    build: .
+    ports:
+      - 10337:8080
+      - 10338:3000
+    environment:
+      WP_TITLE: Victim Site
+      WP_HOST: false
+      WP_ADMIN_EMAIL: admin@internal.localhost
+      APPNAME: Admin
+      APPURL: http://localhost:8080/
+      APPURLREGEX: ^http(|s)://.*$
+      APPLIMIT: 2
+      APPLIMITTIME: 60
+      # USE_PROXY: 1
+      DISPLAY: ${DISPLAY}
+    volumes:
+      - ./src/wp-content/plugins/canvasio3d-light:/var/www/html/wp-content/plugins/canvasio3d-light:ro
+      # uncoment this if you need to run the bot in GUI mode
+      # - /tmp/.X11-unix/:/tmp/.X11-unix/:ro
