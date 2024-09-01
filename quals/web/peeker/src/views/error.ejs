@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f0f0f0, #e6e6e6);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        body.dark-mode {
+            background: linear-gradient(135deg, #1e1e1e, #2e2e2e);
+            color: #e0e0e0;
+        }
+        .error-container {
+            text-align: center;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 600px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .error-container.dark-mode {
+            background: #2a2a2a;
+            color: #e0e0e0;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #cc0000;
+        }
+        h1.dark-mode {
+            color: #ff6b6b;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        p.dark-mode {
+            color: #d0d0d0;
+        }
+        .toggle-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #0073b1;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .toggle-button.dark-mode {
+            background: #444;
+        }
+        a {
+            color: #0073b1;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a.dark-mode {
+            color: #80aaff;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-button">Toggle Dark Mode</button>
+    <div class="error-container">
+        <h1>Error</h1>
+        <p>Invalid username</p>
+        <a href="/">Go back to the homepage</a>
+    </div>
+    <script>
+        const toggleButton = document.querySelector('.toggle-button');
+        const body = document.body;
+        const errorContainer = document.querySelector('.error-container');
+        const darkModeKey = 'darkMode';
+
+        function applyDarkMode() {
+            const isDarkMode = localStorage.getItem(darkModeKey) === 'true';
+            body.classList.toggle('dark-mode', isDarkMode);
+            errorContainer.classList.toggle('dark-mode', isDarkMode);
+            toggleButton.classList.toggle('dark-mode', isDarkMode);
+            document.querySelectorAll('h1, p, a').forEach(el => el.classList.toggle('dark-mode', isDarkMode));
+        }
+
+        toggleButton.addEventListener('click', () => {
+            const isDarkMode = !body.classList.contains('dark-mode');
+            localStorage.setItem(darkModeKey, isDarkMode);
+            applyDarkMode();
+        });
+
+        applyDarkMode();
+    </script>
+</body>
+</html>

@@ -28,7 +28,11 @@ app.get('/proxy', async (req, res) => {
         });
         const response = await github.get(`/${username}`);
         app.locals.fetchedContent = response.data;
-        res.render('result');
+        if (response.status === 200) {
+            res.render('result');
+        } else {
+            res.render('error');
+        }
     } catch (error) {
         res.status(500).send(error.message);
     }
