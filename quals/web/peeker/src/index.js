@@ -44,7 +44,7 @@ app.get('/result', (req, res) => {
 });
 
 app.get('/admin', (req, res) => {
-    if (req.ip === '127.0.0.1') {
+    if (req.ip === '127.0.0.1' || req.ip === '::ffff:127.0.0.1') {
         res.render('admin', { content: process.env.FLAG });
     } else {
         res.render('error', { content: "Forbidden" });
