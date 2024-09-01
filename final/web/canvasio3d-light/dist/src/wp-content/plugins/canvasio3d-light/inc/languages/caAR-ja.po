@@ -1,0 +1,376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Canvasio3D_AR 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-20 07:00+0200\n"
+"PO-Revision-Date: 2021-05-20 07:52+0200\n"
+"Last-Translator: virtuell werk <info@virtuellwerk.de>\n"
+"Language-Team: virtuellwerk <info@virtuellwerk.de>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: ;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../caFunctions.php:38
+msgid "Hello World!"
+msgstr "ハローワールド！！！（笑）。"
+
+#: ../caFunctions.php:39
+msgid "Window height:"
+msgstr "窓の高さ。"
+
+#: ../caFunctions.php:40
+msgid "Window width:"
+msgstr "窓の広さ。"
+
+#: ../caFunctions.php:41 ../caFunctions.php:95
+msgid "Color:"
+msgstr "色。"
+
+#: ../caFunctions.php:42
+msgid "Image:"
+msgstr "イメージです。"
+
+#: ../caFunctions.php:43
+msgid "Color | Image:"
+msgstr "カラー｜イメージ。"
+
+#: ../caFunctions.php:44
+msgid "New scene"
+msgstr "新しいシーン"
+
+#: ../caFunctions.php:45
+msgid "Enter scene name here"
+msgstr "ここにシーン名を入力してください。"
+
+#: ../caFunctions.php:46
+msgid "Delete scene"
+msgstr "シーンの削除"
+
+#: ../caFunctions.php:47
+msgid "Save scene"
+msgstr "シーンの保存"
+
+#: ../caFunctions.php:48
+msgid "Scene select"
+msgstr "シーン選択"
+
+#: ../caFunctions.php:49
+msgid "Copy scene"
+msgstr "コピーシーン"
+
+#: ../caFunctions.php:50
+msgid "Paste scene"
+msgstr "貼り付けシーン"
+
+#: ../caFunctions.php:51
+msgid "Object Upload: fbx | glb | stl | zip"
+msgstr "アップロード fbx | glb | stl | zip"
+
+#: ../caFunctions.php:52
+msgid "Size:"
+msgstr "サイズです。"
+
+#: ../caFunctions.php:53
+msgid "Down | Up:"
+msgstr "下｜上。"
+
+#: ../caFunctions.php:54
+msgid "3D-Object select"
+msgstr "3Dオブジェクト選択"
+
+#: ../caFunctions.php:55
+msgid "Fullscreen button:"
+msgstr "フルスクリーン"
+
+#: ../caFunctions.php:56
+msgid "Rotation button:"
+msgstr "回転ボタンです。"
+
+#: ../caFunctions.php:57
+msgid "Scene Manager"
+msgstr "シーンマネージャー"
+
+#: ../caFunctions.php:58
+msgid "Model Settings"
+msgstr "モデル設定"
+
+#: ../caFunctions.php:59
+msgid "Window Settings"
+msgstr "ウィンドウの設定"
+
+#: ../caFunctions.php:60
+msgid "Button Settings"
+msgstr "ボタンの設定"
+
+#: ../caFunctions.php:61
+msgid "Auto rotation:"
+msgstr "自動回転"
+
+#: ../caFunctions.php:62
+msgid "File upload - Please wait!"
+msgstr "ファイルのアップロード - お待ちください"
+
+#: ../caFunctions.php:63
+msgid "Loading uploaded model"
+msgstr "アップロードされたモデルの読み込み"
+
+#: ../caFunctions.php:64
+msgid "Error: File format not suported!"
+msgstr "エラーが発生しました。ファイル形式がサポートされていません。"
+
+#: ../caFunctions.php:65
+msgid "Loading model"
+msgstr "モデルの読み込み"
+
+#: ../caFunctions.php:66
+msgid "Error in media library!"
+msgstr "メディアライブラリでエラーが発生しました。"
+
+#: ../caFunctions.php:67
+msgid "Scene data was updated"
+msgstr "シーンデータを更新しました"
+
+#: ../caFunctions.php:68
+msgid "New scene data was saved"
+msgstr "新しいシーンデータを保存しました"
+
+#: ../caFunctions.php:69
+msgid "Error to save data!"
+msgstr "データを保存するためのエラー!"
+
+#: ../caFunctions.php:70
+msgid ""
+"If you have question to use your 3D-Models<br>or any problems with our "
+"Plugin, are we pleased about your email:"
+msgstr ""
+"あなたの3Dモデルを使用するための質問がある場合<br>または私たちのプラグインと"
+"の任意の問題は、我々はあなたの電子メールについて喜んでいます。"
+
+#: ../caFunctions.php:71
+msgid "Contact us here"
+msgstr "お問い合わせはこちらから"
+
+#: ../caFunctions.php:72
+msgid "License Key"
+msgstr "ライセンスキー"
+
+#: ../caFunctions.php:73
+msgid ""
+"If you would like to upgrade Canvasio3D<br>than enter your license key here:"
+msgstr ""
+"Canvasio3Dをアップグレードしたい場合は、ここにライセンスキーを入力してくださ"
+"い。"
+
+#: ../caFunctions.php:74
+msgid "Get upgrade version"
+msgstr "アップグレード版を入手"
+
+#: ../caFunctions.php:75
+msgid ""
+"Attention | After upgrade the plugin, the name of <i>canvasio3D Light</i> "
+"will changed <br> to <b>Canvasio3D</b> and must be activate manuell!"
+msgstr ""
+"注意｜プラグインをアップグレードすると、<br>canvasio3D Light</i>の名前が<br>"
+"から<b>Canvasio3D</b>に変更されます。"
+
+#: ../caFunctions.php:76
+msgid "Update is running ... please wait!"
+msgstr "アップデートが実行されています......お待ちください"
+
+#: ../caFunctions.php:77
+msgid "Wireframe button:"
+msgstr "ワイヤフレーム"
+
+#: ../caFunctions.php:78
+msgid "Camera Pan:"
+msgstr "カメラパン。"
+
+#: ../caFunctions.php:79
+msgid "Camera Lock:"
+msgstr "カメラロック。"
+
+#: ../caFunctions.php:80
+msgid "Edit material"
+msgstr "編集素材"
+
+#: ../caFunctions.php:81
+msgid "Edit effects"
+msgstr "編集効果"
+
+#: ../caFunctions.php:82
+msgid "Edit environment"
+msgstr "編集環境"
+
+#: ../caFunctions.php:83
+msgid "Play button:"
+msgstr "再生ボタン"
+
+#: ../caFunctions.php:84
+msgid "Pause button:"
+msgstr "ポーズボタン"
+
+#: ../caFunctions.php:85
+msgid "Back button:"
+msgstr "バック"
+
+#: ../caFunctions.php:86
+msgid "Back to model settings"
+msgstr "モデル設定に戻る"
+
+#: ../caFunctions.php:87
+msgid "Animation:"
+msgstr "アニメーション。"
+
+#: ../caFunctions.php:88
+msgid "Auto play:"
+msgstr "オートプレイ。"
+
+#: ../caFunctions.php:89
+msgid "Animation loop: none"
+msgstr "アニメーションループ：なし"
+
+#: ../caFunctions.php:90
+msgid "Animation loop: forward"
+msgstr "アニメーションループ：フォワード"
+
+#: ../caFunctions.php:91
+msgid "Animation loop: ping-pong"
+msgstr "アニメーションループ：ピンポン"
+
+#: ../caFunctions.php:92
+msgid "Roughness:"
+msgstr "荒々しさ。"
+
+#: ../caFunctions.php:93
+msgid "Metallic:"
+msgstr "メタリック。"
+
+#: ../caFunctions.php:94
+msgid "Transparency:"
+msgstr "透明性がある。"
+
+#: ../caFunctions.php:96
+msgid "Material reset"
+msgstr "マテリアルリセット"
+
+#: ../caFunctions.php:97
+msgid "Material select: right click"
+msgstr "材料選択：右クリック"
+
+#: ../caFunctions.php:98
+msgid "Light-Sets:"
+msgstr "ライトセット。"
+
+#: ../caFunctions.php:99
+msgid "Brightness:"
+msgstr "明るさです。"
+
+#: ../caFunctions.php:100
+msgid "Panorama:"
+msgstr "パノラマ"
+
+#: ../caFunctions.php:101
+msgid "Off | On:"
+msgstr "オフ｜オン。"
+
+#: ../caFunctions.php:102
+msgid "Water:"
+msgstr "水だ"
+
+#: ../caFunctions.php:103
+msgid "Upload button:"
+msgstr "アップロード"
+
+#: ../caFunctions.php:104
+msgid "Outline:"
+msgstr "フレーム"
+
+#: ../caFunctions.php:105
+msgid "Thickness:"
+msgstr "厚さ"
+
+#: ../caFunctions.php:106
+msgid "Video URL:"
+msgstr "動画 URL:"
+
+#: ../caFunctions.php:107
+msgid "Video Volume:"
+msgstr "ビデオボリューム"
+
+#: ../caFunctions.php:108
+msgid "Edit floor"
+msgstr "レイヤーの編集"
+
+#: ../caFunctions.php:109
+msgid "Floor visible:"
+msgstr "地面を見る"
+
+#: ../caFunctions.php:110
+msgid "Repeat:"
+msgstr "リピート"
+
+#: ../caFunctions.php:111
+msgid "Scale:"
+msgstr "規模"
+
+#: ../caFunctions.php:112
+msgid "Mirror:"
+msgstr "ミラー"
+
+#: ../caFunctions.php:113
+msgid "Camera height:"
+msgstr "カメラの高さ。"
+
+#~ msgid "3D-Object Upload (.zip)"
+#~ msgstr "3Dオブジェクトのアップロード (.zip)"
+
+#~ msgid "Material color:"
+#~ msgstr "素材の色。"
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid "Woo 3D-Window"
+#~ msgstr "Woo 3Dウィンドウ"
+
+#~ msgid "Woo Product-ID"
+#~ msgstr "Woo 製品ID"
+
+#~ msgid "Crystal object select"
+#~ msgstr "クリスタルオブジェクト選択"
+
+#~ msgid "No select ..."
+#~ msgstr "選択しない"
+
+#~ msgid "Crystal Material"
+#~ msgstr "水晶材料"
+
+#~ msgid "Main product item"
+#~ msgstr "主な製品項目"
+
+#~ msgid "Get product variations"
+#~ msgstr "製品のバリエーションを入手"
+
+#~ msgid "Assign scene to product"
+#~ msgstr "製品にシーンを割り当てる"
+
+#~ msgid "Surface size:"
+#~ msgstr "表面サイズ。"
+
+#~ msgid "Front | Back:"
+#~ msgstr "表｜裏。"
+
+#~ msgid "Select URL"
+#~ msgstr "URLを選択"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Background:"
+#~ msgstr "Hintergrund:"

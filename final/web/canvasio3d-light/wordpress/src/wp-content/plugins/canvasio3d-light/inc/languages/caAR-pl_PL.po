@@ -1,0 +1,376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Canvasio3D_AR 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-20 08:09+0200\n"
+"PO-Revision-Date: 2021-05-20 08:18+0200\n"
+"Last-Translator: virtuell werk <info@virtuellwerk.de>\n"
+"Language-Team: virtuellwerk <info@virtuellwerk.de>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: ;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../caFunctions.php:38
+msgid "Hello World!"
+msgstr "Witaj świecie!"
+
+#: ../caFunctions.php:39
+msgid "Window height:"
+msgstr "Wysokość okna:"
+
+#: ../caFunctions.php:40
+msgid "Window width:"
+msgstr "Szerokość okna:"
+
+#: ../caFunctions.php:41 ../caFunctions.php:95
+msgid "Color:"
+msgstr "Kolor:"
+
+#: ../caFunctions.php:42
+msgid "Image:"
+msgstr "Obraz:"
+
+#: ../caFunctions.php:43
+msgid "Color | Image:"
+msgstr "Kolor | Obraz:"
+
+#: ../caFunctions.php:44
+msgid "New scene"
+msgstr "Nowa scena"
+
+#: ../caFunctions.php:45
+msgid "Enter scene name here"
+msgstr "Wpisz tutaj nazwę sceny"
+
+#: ../caFunctions.php:46
+msgid "Delete scene"
+msgstr "Usuń scenę"
+
+#: ../caFunctions.php:47
+msgid "Save scene"
+msgstr "Zapisz scenę"
+
+#: ../caFunctions.php:48
+msgid "Scene select"
+msgstr "Wybór sceny"
+
+#: ../caFunctions.php:49
+msgid "Copy scene"
+msgstr "Scena kopiowania"
+
+#: ../caFunctions.php:50
+msgid "Paste scene"
+msgstr "Wklej scenę"
+
+#: ../caFunctions.php:51
+msgid "Object Upload: fbx | glb | stl | zip"
+msgstr "Przesyłanie: fbx | glb | stl | zip"
+
+#: ../caFunctions.php:52
+msgid "Size:"
+msgstr "Wielkość:"
+
+#: ../caFunctions.php:53
+msgid "Down | Up:"
+msgstr "Dół | Góra:"
+
+#: ../caFunctions.php:54
+msgid "3D-Object select"
+msgstr "Wybór 3D-Object"
+
+#: ../caFunctions.php:55
+msgid "Fullscreen button:"
+msgstr "Pełny ekran:"
+
+#: ../caFunctions.php:56
+msgid "Rotation button:"
+msgstr "Przycisk obrotu:"
+
+#: ../caFunctions.php:57
+msgid "Scene Manager"
+msgstr "Kierownik Sceny"
+
+#: ../caFunctions.php:58
+msgid "Model Settings"
+msgstr "Ustawienia modelu"
+
+#: ../caFunctions.php:59
+msgid "Window Settings"
+msgstr "Ustawienia okna"
+
+#: ../caFunctions.php:60
+msgid "Button Settings"
+msgstr "Ustawienia przycisków"
+
+#: ../caFunctions.php:61
+msgid "Auto rotation:"
+msgstr "Automaty obrót:"
+
+#: ../caFunctions.php:62
+msgid "File upload - Please wait!"
+msgstr "Ładowanie plików - Proszę czekać!"
+
+#: ../caFunctions.php:63
+msgid "Loading uploaded model"
+msgstr "Ładowanie załadowanego modelu"
+
+#: ../caFunctions.php:64
+msgid "Error: File format not suported!"
+msgstr "Błąd: Format pliku nie jest obsługiwany!"
+
+#: ../caFunctions.php:65
+msgid "Loading model"
+msgstr "Model załadunku"
+
+#: ../caFunctions.php:66
+msgid "Error in media library!"
+msgstr "Błąd w bibliotece mediów!"
+
+#: ../caFunctions.php:67
+msgid "Scene data was updated"
+msgstr "Dane sceny zostały zaktualizowane"
+
+#: ../caFunctions.php:68
+msgid "New scene data was saved"
+msgstr "Zapisane zostały nowe dane sceny"
+
+#: ../caFunctions.php:69
+msgid "Error to save data!"
+msgstr "Błąd zapisu danych!"
+
+#: ../caFunctions.php:70
+msgid ""
+"If you have question to use your 3D-Models<br>or any problems with our "
+"Plugin, are we pleased about your email:"
+msgstr ""
+"Jeśli masz pytanie do korzystania z modeli 3D<br>lub jakiekolwiek problemy z "
+"naszym Plugin, jesteśmy zadowoleni z Twojego e-maila:"
+
+#: ../caFunctions.php:71
+msgid "Contact us here"
+msgstr "Skontaktuj się z nami tutaj"
+
+#: ../caFunctions.php:72
+msgid "License Key"
+msgstr "Klucz licencyjny"
+
+#: ../caFunctions.php:73
+msgid ""
+"If you would like to upgrade Canvasio3D<br>than enter your license key here:"
+msgstr ""
+"Jeśli chcesz uaktualnić Canvasio3D<br>to wprowadź tutaj swój klucz "
+"licencyjny:"
+
+#: ../caFunctions.php:74
+msgid "Get upgrade version"
+msgstr "Pobierz wersję uaktualnienia"
+
+#: ../caFunctions.php:75
+msgid ""
+"Attention | After upgrade the plugin, the name of <i>canvasio3D Light</i> "
+"will changed <br> to <b>Canvasio3D</b> and must be activate manuell!"
+msgstr ""
+"Uwaga | Po aktualizacji wtyczki, nazwa <i>canvasio3D Light</i> zostanie "
+"zmieniona <br> na <b>Canvasio3D</b> i musi być aktywowany manuell!"
+
+#: ../caFunctions.php:76
+msgid "Update is running ... please wait!"
+msgstr "Aktualizacja jest w toku ... proszę czekać!"
+
+#: ../caFunctions.php:77
+msgid "Wireframe button:"
+msgstr "Przycisk Wireframe:"
+
+#: ../caFunctions.php:78
+msgid "Camera Pan:"
+msgstr "Kamery Pan:"
+
+#: ../caFunctions.php:79
+msgid "Camera Lock:"
+msgstr "Blokada kamery:"
+
+#: ../caFunctions.php:80
+msgid "Edit material"
+msgstr "Materiał do edycji"
+
+#: ../caFunctions.php:81
+msgid "Edit effects"
+msgstr "Efekty edycji"
+
+#: ../caFunctions.php:82
+msgid "Edit environment"
+msgstr "Edytuj środowisko"
+
+#: ../caFunctions.php:83
+msgid "Play button:"
+msgstr "Przycisk grać:"
+
+#: ../caFunctions.php:84
+msgid "Pause button:"
+msgstr "Przycisk pauzy:"
+
+#: ../caFunctions.php:85
+msgid "Back button:"
+msgstr "Przycisk Wstecz:"
+
+#: ../caFunctions.php:86
+msgid "Back to model settings"
+msgstr "Powrót do ustawień modelu"
+
+#: ../caFunctions.php:87
+msgid "Animation:"
+msgstr "Animacja:"
+
+#: ../caFunctions.php:88
+msgid "Auto play:"
+msgstr "Auto grać:"
+
+#: ../caFunctions.php:89
+msgid "Animation loop: none"
+msgstr "Pętla animacji: brak"
+
+#: ../caFunctions.php:90
+msgid "Animation loop: forward"
+msgstr "Pętla animacji: do przodu"
+
+#: ../caFunctions.php:91
+msgid "Animation loop: ping-pong"
+msgstr "Pętla animacji: ping-pong"
+
+#: ../caFunctions.php:92
+msgid "Roughness:"
+msgstr "Szorstkość:"
+
+#: ../caFunctions.php:93
+msgid "Metallic:"
+msgstr "Metaliczne:"
+
+#: ../caFunctions.php:94
+msgid "Transparency:"
+msgstr "Przejrzystość:"
+
+#: ../caFunctions.php:96
+msgid "Material reset"
+msgstr "Reset materiału"
+
+#: ../caFunctions.php:97
+msgid "Material select: right click"
+msgstr "Wybór materiału: prawe kliknięcie"
+
+#: ../caFunctions.php:98
+msgid "Light-Sets:"
+msgstr "Zestawy świetlne:"
+
+#: ../caFunctions.php:99
+msgid "Brightness:"
+msgstr "Jasność:"
+
+#: ../caFunctions.php:100
+msgid "Panorama:"
+msgstr "Panorama:"
+
+#: ../caFunctions.php:101
+msgid "Off | On:"
+msgstr "Wył. | Wł:"
+
+#: ../caFunctions.php:102
+msgid "Water:"
+msgstr "Woda:"
+
+#: ../caFunctions.php:103
+msgid "Upload button:"
+msgstr "Przycisk wysyłania:"
+
+#: ../caFunctions.php:104
+msgid "Outline:"
+msgstr "Zarys:"
+
+#: ../caFunctions.php:105
+msgid "Thickness:"
+msgstr "Grubość:"
+
+#: ../caFunctions.php:106
+msgid "Video URL:"
+msgstr "URL wideo:"
+
+#: ../caFunctions.php:107
+msgid "Video Volume:"
+msgstr "Objętość wideo:"
+
+#: ../caFunctions.php:108
+msgid "Edit floor"
+msgstr "Edytuj podłogę"
+
+#: ../caFunctions.php:109
+msgid "Floor visible:"
+msgstr "Widoczna podłoga:"
+
+#: ../caFunctions.php:110
+msgid "Repeat:"
+msgstr "Powtórzenie:"
+
+#: ../caFunctions.php:111
+msgid "Scale:"
+msgstr "Skala:"
+
+#: ../caFunctions.php:112
+msgid "Mirror:"
+msgstr "Lustro:"
+
+#: ../caFunctions.php:113
+msgid "Camera height:"
+msgstr "Wysokość kamery:"
+
+#~ msgid "3D-Object Upload (.zip)"
+#~ msgstr "Przesyłanie obiektów 3D (.zip)"
+
+#~ msgid "Material color:"
+#~ msgstr "Kolor materiału:"
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid "Woo 3D-Window"
+#~ msgstr "Woo Okno 3D"
+
+#~ msgid "Woo Product-ID"
+#~ msgstr "Woo ID Produktu"
+
+#~ msgid "Crystal object select"
+#~ msgstr "Wybór obiektu Crystal"
+
+#~ msgid "No select ..."
+#~ msgstr "Nie wybieraj..."
+
+#~ msgid "Crystal Material"
+#~ msgstr "Kryształ Materiał"
+
+#~ msgid "Main product item"
+#~ msgstr "Główna pozycja produktu"
+
+#~ msgid "Get product variations"
+#~ msgstr "Pobierz odmiany produktu"
+
+#~ msgid "Assign scene to product"
+#~ msgstr "Przypisanie sceny do produktu"
+
+#~ msgid "Surface size:"
+#~ msgstr "Wielkość powierzchni:"
+
+#~ msgid "Front | Back:"
+#~ msgstr "Przód | Tył:"
+
+#~ msgid "Select URL"
+#~ msgstr "Wybierz URL"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Background:"
+#~ msgstr "Hintergrund:"

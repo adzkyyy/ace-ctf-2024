@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: "TCP1P Writeup"
+author: "Dimas"
+category: Web
+description: |
+  We used to put our writeups in a repo, now I made a special website for our writeups!
+
+  **website**: https://{{ url }}:63216
+
+value: 1000
+type: StaticAttachment
+
+scripts:
+  start: pm2 start ./run.sh  --name "tcp1p-writeup"
+  stop: pm2 stop tcp1p-writeup && docker compose down --volumes
+
+provide: ./dist
+
+flags:
+- ACE{ssti_in_nextjs_a7f77c6f-e7a4-44a2-8f7e-448ab29116ab}

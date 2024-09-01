@@ -1,0 +1,374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Canvasio3D_AR 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-20 07:55+0200\n"
+"PO-Revision-Date: 2021-05-20 08:03+0200\n"
+"Last-Translator: virtuell werk <info@virtuellwerk.de>\n"
+"Language-Team: virtuellwerk <info@virtuellwerk.de>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: ;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../caFunctions.php:38
+msgid "Hello World!"
+msgstr "Hallo Wereld!"
+
+#: ../caFunctions.php:39
+msgid "Window height:"
+msgstr "Venster Hoogte:"
+
+#: ../caFunctions.php:40
+msgid "Window width:"
+msgstr "Venster breedte:"
+
+#: ../caFunctions.php:41 ../caFunctions.php:95
+msgid "Color:"
+msgstr "Kleur:"
+
+#: ../caFunctions.php:42
+msgid "Image:"
+msgstr "Beeld:"
+
+#: ../caFunctions.php:43
+msgid "Color | Image:"
+msgstr "Kleur | Beeld:"
+
+#: ../caFunctions.php:44
+msgid "New scene"
+msgstr "Nieuwe scène"
+
+#: ../caFunctions.php:45
+msgid "Enter scene name here"
+msgstr "Vul hier de naam van de scène in"
+
+#: ../caFunctions.php:46
+msgid "Delete scene"
+msgstr "Verwijder scène"
+
+#: ../caFunctions.php:47
+msgid "Save scene"
+msgstr "Scène opslaan"
+
+#: ../caFunctions.php:48
+msgid "Scene select"
+msgstr "Scène selectie"
+
+#: ../caFunctions.php:49
+msgid "Copy scene"
+msgstr "Kopieer scène"
+
+#: ../caFunctions.php:50
+msgid "Paste scene"
+msgstr "Plaats scène"
+
+#: ../caFunctions.php:51
+msgid "Object Upload: fbx | glb | stl | zip"
+msgstr "Model opladen: fbx | glb | stl | zip"
+
+#: ../caFunctions.php:52
+msgid "Size:"
+msgstr "Grootte:"
+
+#: ../caFunctions.php:53
+msgid "Down | Up:"
+msgstr "Omlaag | Omhoog:"
+
+#: ../caFunctions.php:54
+msgid "3D-Object select"
+msgstr "3D-Object selectie"
+
+#: ../caFunctions.php:55
+msgid "Fullscreen button:"
+msgstr "Volledig scherm:"
+
+#: ../caFunctions.php:56
+msgid "Rotation button:"
+msgstr "Rotatie knop:"
+
+#: ../caFunctions.php:57
+msgid "Scene Manager"
+msgstr "Scène Manager"
+
+#: ../caFunctions.php:58
+msgid "Model Settings"
+msgstr "Model Instellingen"
+
+#: ../caFunctions.php:59
+msgid "Window Settings"
+msgstr "Venster Instellingen"
+
+#: ../caFunctions.php:60
+msgid "Button Settings"
+msgstr "Knop Instellingen"
+
+#: ../caFunctions.php:61
+msgid "Auto rotation:"
+msgstr "Auto rotatie:"
+
+#: ../caFunctions.php:62
+msgid "File upload - Please wait!"
+msgstr "Bestand uploaden - Even wachten!"
+
+#: ../caFunctions.php:63
+msgid "Loading uploaded model"
+msgstr "Geüpload model laden"
+
+#: ../caFunctions.php:64
+msgid "Error: File format not suported!"
+msgstr "Fout: Bestandsformaat niet ondersteund!"
+
+#: ../caFunctions.php:65
+msgid "Loading model"
+msgstr "Laad model"
+
+#: ../caFunctions.php:66
+msgid "Error in media library!"
+msgstr "Fout in mediabibliotheek!"
+
+#: ../caFunctions.php:67
+msgid "Scene data was updated"
+msgstr "De scènegegevens werden bijgewerkt"
+
+#: ../caFunctions.php:68
+msgid "New scene data was saved"
+msgstr "Nieuwe scènegegevens werden opgeslagen"
+
+#: ../caFunctions.php:69
+msgid "Error to save data!"
+msgstr "Fout bij het opslaan van gegevens!"
+
+#: ../caFunctions.php:70
+msgid ""
+"If you have question to use your 3D-Models<br>or any problems with our "
+"Plugin, are we pleased about your email:"
+msgstr ""
+"Als u vragen hebt om uw 3D-Modellen<br>te gebruiken of om het even welke "
+"problemen met onze Plugin, zijn wij pleased over uw e-mail:"
+
+#: ../caFunctions.php:71
+msgid "Contact us here"
+msgstr "Contacteer ons hier"
+
+#: ../caFunctions.php:72
+msgid "License Key"
+msgstr "Licentie Sleutel"
+
+#: ../caFunctions.php:73
+msgid ""
+"If you would like to upgrade Canvasio3D<br>than enter your license key here:"
+msgstr "Als u Canvasio3D wilt upgraden<br>vult u hier uw licentiesleutel in:"
+
+#: ../caFunctions.php:74
+msgid "Get upgrade version"
+msgstr "Verkrijg upgrade versie"
+
+#: ../caFunctions.php:75
+msgid ""
+"Attention | After upgrade the plugin, the name of <i>canvasio3D Light</i> "
+"will changed <br> to <b>Canvasio3D</b> and must be activate manuell!"
+msgstr ""
+"Attentie | Na de upgrade van de plugin, zal de naam van <i>canvasio3D Light</"
+"i> veranderen in <b>Canvasio3D</b> en moet manuell geactiveerd worden!"
+
+#: ../caFunctions.php:76
+msgid "Update is running ... please wait!"
+msgstr "Update is bezig ... wacht even!"
+
+#: ../caFunctions.php:77
+msgid "Wireframe button:"
+msgstr "Wireframe knop:"
+
+#: ../caFunctions.php:78
+msgid "Camera Pan:"
+msgstr "Camera Pan:"
+
+#: ../caFunctions.php:79
+msgid "Camera Lock:"
+msgstr "Camera slot:"
+
+#: ../caFunctions.php:80
+msgid "Edit material"
+msgstr "Materiaal bewerken"
+
+#: ../caFunctions.php:81
+msgid "Edit effects"
+msgstr "Bewerk effecten"
+
+#: ../caFunctions.php:82
+msgid "Edit environment"
+msgstr "Bewerk milieu"
+
+#: ../caFunctions.php:83
+msgid "Play button:"
+msgstr "Play knop:"
+
+#: ../caFunctions.php:84
+msgid "Pause button:"
+msgstr "Pauze knop:"
+
+#: ../caFunctions.php:85
+msgid "Back button:"
+msgstr "Terug knop:"
+
+#: ../caFunctions.php:86
+msgid "Back to model settings"
+msgstr "Terug naar model instellingen"
+
+#: ../caFunctions.php:87
+msgid "Animation:"
+msgstr "Animatie:"
+
+#: ../caFunctions.php:88
+msgid "Auto play:"
+msgstr "Auto play:"
+
+#: ../caFunctions.php:89
+msgid "Animation loop: none"
+msgstr "Animatie lus: geen"
+
+#: ../caFunctions.php:90
+msgid "Animation loop: forward"
+msgstr "Animatie lus: vooruit"
+
+#: ../caFunctions.php:91
+msgid "Animation loop: ping-pong"
+msgstr "Animatie lus: ping-pong"
+
+#: ../caFunctions.php:92
+msgid "Roughness:"
+msgstr "Ruwheid:"
+
+#: ../caFunctions.php:93
+msgid "Metallic:"
+msgstr "Metallic:"
+
+#: ../caFunctions.php:94
+msgid "Transparency:"
+msgstr "Transparantie:"
+
+#: ../caFunctions.php:96
+msgid "Material reset"
+msgstr "Materiaal reset"
+
+#: ../caFunctions.php:97
+msgid "Material select: right click"
+msgstr "Materiaal selecteren: klik rechts"
+
+#: ../caFunctions.php:98
+msgid "Light-Sets:"
+msgstr "Lichtsets:"
+
+#: ../caFunctions.php:99
+msgid "Brightness:"
+msgstr "Lichtsterkte:"
+
+#: ../caFunctions.php:100
+msgid "Panorama:"
+msgstr "Panorama:"
+
+#: ../caFunctions.php:101
+msgid "Off | On:"
+msgstr "Uit | Aan:"
+
+#: ../caFunctions.php:102
+msgid "Water:"
+msgstr "Water:"
+
+#: ../caFunctions.php:103
+msgid "Upload button:"
+msgstr "Upload knop:"
+
+#: ../caFunctions.php:104
+msgid "Outline:"
+msgstr "Schets:"
+
+#: ../caFunctions.php:105
+msgid "Thickness:"
+msgstr "Dikte:"
+
+#: ../caFunctions.php:106
+msgid "Video URL:"
+msgstr "Video URL:"
+
+#: ../caFunctions.php:107
+msgid "Video Volume:"
+msgstr "Video volume:"
+
+#: ../caFunctions.php:108
+msgid "Edit floor"
+msgstr "Wijzig vloer"
+
+#: ../caFunctions.php:109
+msgid "Floor visible:"
+msgstr "Vloer zichtbaar:"
+
+#: ../caFunctions.php:110
+msgid "Repeat:"
+msgstr "Herhaal:"
+
+#: ../caFunctions.php:111
+msgid "Scale:"
+msgstr "Schaal:"
+
+#: ../caFunctions.php:112
+msgid "Mirror:"
+msgstr "Spiegel:"
+
+#: ../caFunctions.php:113
+msgid "Camera height:"
+msgstr "Camera hoogte:"
+
+#~ msgid "3D-Object Upload (.zip)"
+#~ msgstr "Uploaden 3D-Object (.zip)"
+
+#~ msgid "Material color:"
+#~ msgstr "Materiaal kleur:"
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid "Woo 3D-Window"
+#~ msgstr "Woo 3D-Venster"
+
+#~ msgid "Woo Product-ID"
+#~ msgstr "Woo Produkt-ID"
+
+#~ msgid "Crystal object select"
+#~ msgstr "Kristal object selecteren"
+
+#~ msgid "No select ..."
+#~ msgstr "Geen select..."
+
+#~ msgid "Crystal Material"
+#~ msgstr "Kristal Materiaal"
+
+#~ msgid "Main product item"
+#~ msgstr "Hoofdproduct"
+
+#~ msgid "Get product variations"
+#~ msgstr "Verkrijg product variaties"
+
+#~ msgid "Assign scene to product"
+#~ msgstr "Scène toewijzen aan product"
+
+#~ msgid "Surface size:"
+#~ msgstr "Oppervlakte maat:"
+
+#~ msgid "Front | Back:"
+#~ msgstr "Voorkant | Achterkant:"
+
+#~ msgid "Select URL"
+#~ msgstr "Selecteer URL"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Background:"
+#~ msgstr "Hintergrund:"
