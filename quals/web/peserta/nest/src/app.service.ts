@@ -44,6 +44,6 @@ export class AppService {
   }
 
   async flag(req: string): Promise<string> {
-    return req
+    return process.env.FLAG
   }
 }

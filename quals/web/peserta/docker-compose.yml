@@ -1,0 +1,40 @@
+services:
+  tarantool:
+    container_name: tarantool
+    image: tarantool/tarantool
+    expose:
+      - 3301
+    volumes:
+      - ./tarantool:/tarantool
+    command: |
+      /bin/sh -c '/bin/sh -s <<EOF
+      tarantool /tarantool/app.lua
+      EOF'
+    networks:
+      peserta:
+        ipv4_address: 172.20.0.5
+    restart: always
+
+  nestjs:
+    container_name: nestjs
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on: 
+      - tarantool
+    networks:
+      peserta:
+        ipv4_address: 172.20.0.6
+    restart: always
+    environment:
+      - FLAG=ACECTF{hmmm_pasti_banyak_yang_unitended}
+
+networks:
+  peserta:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+          gateway: 172.20.0.1

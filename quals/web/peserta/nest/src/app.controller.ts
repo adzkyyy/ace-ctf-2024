@@ -1,6 +1,9 @@
-import { Body, Controller, Get, Param, Post, Render, ValidationPipe } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post, Render, Req, ValidationPipe } from '@nestjs/common';
 import { AppService } from './app.service';
 import { ResponseApi } from './interfaces/response';
+import { flagRequest } from './dto/app.req';
+import { RealIP } from 'nestjs-real-ip';
+import * as ipRangeCheck from 'ip-range-check';
 
 @Controller()
 export class AppController {
@@ -47,8 +50,12 @@ export class AppController {
   }
 
   @Post('api/v1/flag')
-  async getFlag(@Body(new ValidationPipe()) req: {flag: string}): Promise<ResponseApi<string>>{
+  async getFlag(
+    @Body(new ValidationPipe()) req: flagRequest, 
+    @RealIP() ip: string): Promise<ResponseApi<string>>{
     try {
+      console.log(ip, ipRangeCheck(ip, '172.20.0.4/30'))
+      if (!ipRangeCheck(ip, '172.20.0.4/30')) return {code: 403, message: 'Forbidden', data: null}
       const result = await this.appService.flag(req.flag);
       return { code: 200, message: 'Flag nya ketemu!', data: result}
     } catch(error) {

@@ -20,20 +20,16 @@ export class TarantoolConnection {
   private connection: TarantoolDriver;
   private ready_promise: Promise<void | false>;
   constructor(private readonly configService: ConfigService) {
-    const host = '192.168.50.102';
+    const host = 'tarantool';
     const port = 3301;
 
     console.log(host, port);
-
-    // const username = 'guest';
-    // const password = '';
 
     this.connection = new TarantoolDriver({ host, port });
 
     this.ready_promise = new Promise((resolve, reject) => {
       this.connection
         .connect()
-        // .then(() => this.connection.auth(username, password))
         .then(() => resolve())
         .catch(() => resolve(false));
     });
