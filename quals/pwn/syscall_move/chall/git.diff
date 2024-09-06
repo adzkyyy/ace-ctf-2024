@@ -1,0 +1,38 @@
+diff --git a/linux-6.1.107-1/arch/x86/entry/syscalls/syscall_64.tbl b/linux-6.1.107-2/arch/x86/entry/syscalls/syscall_64.tbl
+index c375202..c84d126 100644
+--- a/linux-6.1.107-1/arch/x86/entry/syscalls/syscall_64.tbl
++++ b/linux-6.1.107-2/arch/x86/entry/syscalls/syscall_64.tbl
+@@ -415,6 +415,5 @@
+ 545	x32	execveat		compat_sys_execveat
+ 546	x32	preadv2			compat_sys_preadv64v2
+ 547	x32	pwritev2		compat_sys_pwritev64v2
+-548     64      move                    sys_move
+ # This is the end of the legacy x32 range.  Numbers 548 and above are
+ # not special and are not to be used for x32-specific syscalls.
+diff --git a/linux-6.1.107-1/include/linux/syscalls.h b/linux-6.1.107-2/include/linux/syscalls.h
+index 279487c..dcce762 100644
+--- a/linux-6.1.107-1/include/linux/syscalls.h
++++ b/linux-6.1.107-2/include/linux/syscalls.h
+@@ -771,7 +771,6 @@ asmlinkage long sys_umask(int mask);
+ asmlinkage long sys_prctl(int option, unsigned long arg2, unsigned long arg3,
+ 			unsigned long arg4, unsigned long arg5);
+ asmlinkage long sys_getcpu(unsigned __user *cpu, unsigned __user *node, struct getcpu_cache __user *cache);
+-asmlinkage long sys_move(void *dst, void *src);
+ 
+ /* kernel/time.c */
+ asmlinkage long sys_gettimeofday(struct __kernel_old_timeval __user *tv,
+diff --git a/linux-6.1.107-1/kernel/sys.c b/linux-6.1.107-2/kernel/sys.c
+index a07241b..d06eda1 100644
+--- a/linux-6.1.107-1/kernel/sys.c
++++ b/linux-6.1.107-2/kernel/sys.c
+@@ -1873,10 +1873,6 @@ SYSCALL_DEFINE2(getrusage, int, who, struct rusage __user *, ru)
+ 	return copy_to_user(ru, &r, sizeof(r)) ? -EFAULT : 0;
+ }
+ 
+-SYSCALL_DEFINE2(move, void *, dst, void *, src){
+-        return copy_user_generic_unrolled(dst, src, 8);
+-}
+-
+ #ifdef CONFIG_COMPAT
+ COMPAT_SYSCALL_DEFINE2(getrusage, int, who, struct compat_rusage __user *, ru)
+ {

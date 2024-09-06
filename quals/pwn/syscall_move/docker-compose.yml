@@ -1,0 +1,15 @@
+version: '3'
+services:
+  syscallmove:
+    build: .
+    ports:
+      - 13338:13337
+    working_dir: /home/ctf
+    entrypoint: /etc/init.sh
+    init: true
+    restart: always
+    deploy:
+      resources:
+        limits:
+          nproc: 65535
+          cpus: "1.0"
