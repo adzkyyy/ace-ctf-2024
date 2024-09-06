@@ -1,9 +1,10 @@
 from pwn import *
 
 context.terminal = "tmux splitw -h".split()
-context.binary = elf = ELF('./main')
+context.binary = elf = ELF('./chall')
 libc = elf.libc
 
+p = remote('localhost', 5941)
 p = elf.process()
 #gdb.attach(p)
 
