@@ -1,0 +1,7 @@
+services:
+  balap:
+    build: .
+    ports:
+    - 5491:8000
+    entrypoint: /etc/init.sh
+    restart: always
