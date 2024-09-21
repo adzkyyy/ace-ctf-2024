@@ -3,5 +3,5 @@ services:
   commandservice:
     build: .
     ports:
-      - "21337:21337"
+      - "13337:13337"
     restart: always
