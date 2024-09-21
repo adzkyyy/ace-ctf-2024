@@ -1,0 +1,7 @@
+version: '3'
+services:
+  commandservice:
+    build: .
+    ports:
+      - "21337:21337"
+    restart: always
